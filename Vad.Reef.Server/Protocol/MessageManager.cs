@@ -20,7 +20,7 @@ class MessageManager
     {
         int messageType = message.GetMessageType();
 
-        if (messageType != 10108)
+        if (messageType != 14102)
             Debugger.Log($"MessageManager.ReceiveMessage: type={messageType}, name=" + message.GetType().Name);
 
         switch (message.GetMessageType())

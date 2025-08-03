@@ -52,8 +52,8 @@ namespace Vad.Reef.Logic.Avatar
             this._townHallLevel = 0;
             this._name = "Vadim_not_dev";
             this._facebookId = "FacebookID";
-            this._expLevel = 99;
-            this._expPoints = 999;
+            this._expLevel = 15;
+            this._expPoints = 5;
             this._diamonds = 99999;
             this._freeDiamonds = 0;
             this._attackRating = 0;
