@@ -27,7 +27,7 @@ dotnet publish "Vad.Reef.Server.csproj" -c Release -o app
 
 and run Server in app folder
 
-##Credits
+## Credits
 Thanks to my friends for their help:
 - [WiseDev](https://github.com/wisedevik)
 - [ᵈᵉᵛ | 𝒇𝒂𝒔𝒕𝒘𝒐𝒍𝒇❦ᵛᵃ](https://github.com/FastWolf-051)
