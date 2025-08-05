@@ -87,7 +87,8 @@ namespace Vad.Reef.Server.Protocol
                     }
                     else
                     {
-                        Debugger.Warning($"Ignoring message of unknown type {messageType}");
+                        if (messageType != 14102)
+                            Debugger.Warning($"Ignoring message of unknown type {messageType}");
                     }
 
                     return messageLength + HEADER_SIZE;
