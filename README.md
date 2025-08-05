@@ -1,13 +1,18 @@
 # Vad.Reef
 
-Server for Boom Beach v3.16
+Server for **Boom Beach v3.16**
 
-ipa client [boombeach.ipa:] (https://4pda.to/forum/index.php?showtopic=516906&view=findpost&p=26594360) (need registration)
+## IPA Client
 
-*** To setup the project, you will need: ***
-[.NET 9] (https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+You can download the IPA client here (registration required):  
+[boombeach.ipa](https://4pda.to/forum/index.php?showtopic=516906&view=findpost&p=26594360)
 
-*** To build the project, run:  ***
+## Prerequisites
+
+To set up the project, you will need:  
+[.NET 9](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+
+## Building the Project
 ```
 git clone https://github.com/Vadimnotdev/Vad.Reef
 ```
@@ -22,7 +27,7 @@ dotnet publish "Vad.Reef.Server.csproj" -c Release -o app
 
 and run Server in app folder
 
-*** Credits ***
+##Credits
 Thanks to my friends for their help:
-- [WiseDev] (https://github.com/wisedevik)
-- [ᵈᵉᵛ | 𝒇𝒂𝒔𝒕𝒘𝒐𝒍𝒇❦ᵛᵃ] (https://github.com/FastWolf-051)
+- [WiseDev](https://github.com/wisedevik)
+- [ᵈᵉᵛ | 𝒇𝒂𝒔𝒕𝒘𝒐𝒍𝒇❦ᵛᵃ](https://github.com/FastWolf-051)
