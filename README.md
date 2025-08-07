@@ -10,7 +10,8 @@ You can download the IPA client here (registration required):
 ## Prerequisites
 
 To set up the project, you will need:  
-[.NET 9](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+- [.NET 9](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+- [MongoDB Compass](https://www.mongodb.com/try/download/community)
 
 ## Building the Project
 ```
