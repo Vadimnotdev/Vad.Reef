@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="3.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Vad.Reef.Logic\Vad.Reef.Logic.csproj" />
     <ProjectReference Include="..\Vad.Reef.Titan\Vad.Reef.Titan.csproj" />
   </ItemGroup>

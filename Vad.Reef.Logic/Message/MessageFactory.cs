@@ -3,6 +3,7 @@
     using Vad.Reef.Logic.Message;
     using Vad.Reef.Titan.Logic.Message;
     using Vad.Reef.Logic.Message.Auth;
+    using Vad.Reef.Logic.Message.Home;
 
     public class LogicReefMessageFactory : LogicMessageFactory
     {
@@ -18,7 +19,8 @@
         public LogicReefMessageFactory() : base()
         {
             _allMessages = new Dictionary<int, Type> {
-                { 10101, typeof(LoginMessage) }
+                { 10101, typeof(LoginMessage) },
+                { 10212, typeof(ChangeAvatarNameMessage) }
             };
         }
 

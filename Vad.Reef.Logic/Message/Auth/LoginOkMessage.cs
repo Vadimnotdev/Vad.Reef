@@ -5,17 +5,17 @@ namespace Vad.Reef.Logic.Message.Auth;
 
 public class LoginOkMessage : PiranhaMessage
 {
-    private LogicLong _accountId;
-    private LogicLong _homeId;
-    private string _passToken;
-    private string _facebookId;
-    private string _gamecenterId;
-    private int _serverMajorVersion;
-    private int _serverBuild;
-    private int _contentVersion;
-    private string _serverEnvironment;
-    private string _facebookAppId;
-    private string _googleServiceId;
+    public LogicLong _accountId;
+    public LogicLong _homeId;
+    public string _passToken;
+    public string _facebookId;
+    public string _gamecenterId;
+    public int _serverMajorVersion;
+    public int _serverBuild;
+    public int _contentVersion;
+    public string _serverEnvironment;
+    public string _facebookAppId;
+    public string _googleServiceId;
 
     public LoginOkMessage() : base(0)
     {
